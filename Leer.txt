@@ -1,0 +1,15 @@
+        git pull
+            ↓
+        Modificar archivo
+            ↓
+        Ctrl + S
+            ↓
+        Git status
+            ↓
+        git add (nombre de la carpeta/archivo) 
+            ↓
+        git commit -m "Descripción del cambio"
+            ↓
+        git push
+            ↓
+        Cambios guardados en GitHub
