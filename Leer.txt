@@ -13,3 +13,4 @@
         git push
             ↓
         Cambios guardados en GitHub
+----------------------------------------------------
