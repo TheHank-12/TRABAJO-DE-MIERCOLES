@@ -1,0 +1,25 @@
+
+-- bd_librería--
+1. Descargar el bd_librería.sql
+2. Importar la base de datos a su phpmyadmin 
+
+-- Creacion de ramas
+1. Cambiar a main  
+    git checkout main
+    git pull origin main
+2. Crear la rama personal
+    git checkout -b (NombreDeLaRama)
+3. Editar el código
+
+4. Guardar los avances
+    git status
+    git add (nombre de la carpeta o archivos editados/creados)
+    git commit -m "descripcion breve"
+5. Subir el avance
+    git push -u origin (NombreDeLaRama)
+6. Pasos extras
+    Entrar al repositorio de GitHub
+    Hacer click en Compare & pull request
+    Revisar que diga: base: main - compare: (NombreDeLaRama)
+    Hacer click en create pull request
+    
