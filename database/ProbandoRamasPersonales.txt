@@ -22,4 +22,9 @@
     Hacer click en Compare & pull request
     Revisar que diga: base: main - compare: (NombreDeLaRama)
     Hacer click en create pull request
-    
+7. Finalizando
+    Hacer click en Merge pull request, si no hay errores
+    Volver a VisualStudio y volver a main
+    git checkout main
+    git pul origin main
+
