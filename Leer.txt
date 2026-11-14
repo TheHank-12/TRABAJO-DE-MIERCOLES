@@ -1,16 +1,73 @@
-        git pull
-            ↓
-        Modificar archivo
-            ↓
-        Ctrl + S
-            ↓
-        Git status
-            ↓
-        git add (nombre de la carpeta/archivo) 
-            ↓
-        git commit -m "Descripción del cambio"
-            ↓
-        git push
-            ↓
-        Cambios guardados en GitHub
+├── admin/
+│   ├── empleados/
+│   ├── clientes/
+│   ├── libros/
+│   ├── categorias/
+│   ├── ventas/
+│   ├── alquileres/
+│   ├── pedidos/
+│   ├── solicitudes/
+│   └── index.php
+│
+├── cliente/
+│   ├── perfil.php
+│   ├── mis_compras.php
+│   ├── mis_alquileres.php
+│   ├── mis_pedidos.php
+│   └── editar_perfil.php
+│
+├── auth/
+│   ├── registro.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── procesar_registro.php
+│   └── procesar_login.php
+│
+├── config/
+│   ├── conexion.php
+│   └── configuracion.php
+│
+├── includes/
+│   ├── header.php
+│   ├── navbar.php
+│   ├── footer.php
+│   ├── menu_admin.php
+│   ├── menu_cliente.php
+│   └── verificar_sesion.php
+│
+├── procesos/
+│   ├── agregar_carrito.php
+│   ├── eliminar_carrito.php
+│   ├── actualizar_carrito.php
+│   ├── procesar_compra.php
+│   └── procesar_alquiler.php
+│
+├── email/
+│   ├── enviar_confirmacion.php
+│   └── plantillas/
+│
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── img/
+│
+├── uploads/
+│   └── libros/
+│
+├── database/
+│   ├── libreria.sql
+│   └── datos_prueba.sql
+│
+├── index.php
+├── catalogo.php
+├── libro.php
+├── buscar.php
+├── carrito.php
+├── checkout.php
+├── contacto.php
+│
+└── README.md
+
+
+Nota: las carpetas email y solicitudes pueden incorporarse cuando se desarrollen esas ampliaciones. No es necesario crearlas todas desde el primer día.
 ----------------------------------------------------
